@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html" charset="iso-8859-1">
+    <title>My web project</title>
+    <style>
+    
+  /*The body element is a special element and is used for styling that you want on the whole webpage */
+
+/* Styles ALL h1s on your webpage*/
+.container {
+  text-align: center;
+ background-color: #f7f6f5;
+  width: 600px;
+   height: 100px;
+  margin: 60px;  
+}
+
+.mainpicture {
+  text-align: center;
+ background-color: #f7f6f5;
+  width: 60px;
+   height: 60px;
+  margin: 20px;  
+}
+
+.underrubrik {
+  text-align: center;
+ background-color: #f7f6f5;
+  margin: 20px;  
+}
+
+.boxrubrik{
+  text-align: center;
+ background-color: #f7f6f5;
+  margin: 20px;
+  width: 200px;
+   height: 100px;
+   margin: 20px;
+   background: #436cae;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+  
+.baby {
+   display: flex;
+   justify-content: center;
+ }
+.undersektioner {
+display: flex;
+   justify-content: center;
+  align-items: center;
+   padding: 20px;
+  border-radius: 10px;
+ }
+
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-weight: extra bold;
+  color:  #436cae;
+  margin: 20px;
+}
+
+p {
+  colour: #436cae;
+  margin: 20px;
+}
+
+<section class="Huvudavsändare">
+
+/* Styles ONLY the about-me section on the page */
+.about-me {
+  background-color: #ffcccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+    </style>
+  </head>
+  <body>
+  
+<section class="container">
+<h1> Svenska Dagbladets logotypregler</h1> 
+  <p class="underrubrik">logotypernas användning</p>
+  
+ <section clas="mainpicture">
+   <img src="https://www.svd.se/static/logo-backup.jpg"/> </section>
+
+
+<!-- This is how you make a comment in HTML – if you want to write notes for yourself. -->
+
+  <section class="Huvudavsändare">
+  <p><b>Långformen Svenska Dagbladet kan bara placeras på vit bakgrund och används i första hand på våra redaktionella produkter eller i stora format utanför produkterna</b>
+
+    <section class="baby">
+<section class="undersektioner">
+  <h2 class="boxrubrik">SvD Baslogotyp</h2>
+  <p>logotypens utformning</p>
+  <p>storlek friyta placering</p>
+  <p>på olika bakgrunder</p>
+  <p>samarbeten</p> </section>
+  
+<section class="undersektioner">
+  <h2 class="boxrubrik">SvD Näringsliv</h2>
+   <p>logotypens utformning</p>
+  <p>storlek friyta placering</p>
+  <p>på olika bakgrunder</p>
+  <p>samarbeten</p></section>
+  
+<section class="undersektioner">
+  <h2 class="boxrubrik">SvD Upplevelser</h2>
+   <p>logotypens utformning</p>
+  <p>storlek friyta placering</p>
+  <p>på olika bakgrunder</p>
+  <p>samarbeten</p></section>
+  
+<section class="undersektioner">
+  <h2 class="boxrubrik">Hämta logotypen</h2>
+  <p>För printanvändning</p>
+    <p>För digitalt bruk</p>
+  <p>Mallar rörligt</p></section></section>
+  
+
+<p>This is another pharagraph that both have some <b>strong text</b>, some <i>italic</i> and even a <a href= "www.google.com">link to google.</a></p>
+  
+</section>
+  
+  </section>
+  
+  
+
+  </body>
+</html>
